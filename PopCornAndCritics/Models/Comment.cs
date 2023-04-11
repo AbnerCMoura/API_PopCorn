@@ -19,7 +19,7 @@ namespace PopCornAndCritics.Models
 
         [Column]
         [Required(ErrorMessage = "Conteúdo do comentário é obrigatório")]
-        [Range(50,300, ErrorMessage = "O Comentário deve ter entre 50 a 300 caracteres")]
+        [Range(50, 300, ErrorMessage = "O Comentário deve ter entre 50 a 300 caracteres")]
         public string Content { get; set; }
     }
 }

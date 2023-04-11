@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PopCornAndCritics</name>
+    </assembly>
+    <members>
+        <member name="M:PopCornAndCritics.Controllers.MovieController.MovieResgister(PopCornAndCritics.Models.Movie)">
+            <summary>
+            Cadastrar novo filme Temporário
+            </summary>
+        </member>
+        <member name="M:PopCornAndCritics.Controllers.MovieController.GetAll">
+            <summary>
+            Recebe todos os filmes
+            </summary>
+        </member>
+        <member name="M:PopCornAndCritics.Controllers.MovieController.GetMovie(System.Int32)">
+            <summary>
+            Recebe filmes por id
+            </summary>
+        </member>
+        <member name="M:PopCornAndCritics.Controllers.MovieController.MovieGenre(System.String)">
+            <summary>
+            Recebe filmes por Gênero
+            </summary>
+        </member>
+        <member name="T:PopCornAndCritics.Migrations.FirstMigration">
+            <inheritdoc />
+        </member>
+        <member name="M:PopCornAndCritics.Migrations.FirstMigration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:PopCornAndCritics.Migrations.FirstMigration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:PopCornAndCritics.Migrations.FirstMigration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:PopCornAndCritics.Migrations.CollumImageInUserTable">
+            <inheritdoc />
+        </member>
+        <member name="M:PopCornAndCritics.Migrations.CollumImageInUserTable.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:PopCornAndCritics.Migrations.CollumImageInUserTable.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:PopCornAndCritics.Migrations.CollumImageInUserTable.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

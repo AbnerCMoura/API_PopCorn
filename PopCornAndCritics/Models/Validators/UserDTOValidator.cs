@@ -1,6 +1,7 @@
 ﻿using FluentValidation;
+using PopCornAndCritics.Models.DTOs;
 
-namespace PopCornAndCritics.Models;
+namespace PopCornAndCritics.Models.Validators;
 public class UserDTOValidator : AbstractValidator<UserDTO>
 {
     public UserDTOValidator()
